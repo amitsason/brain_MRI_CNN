@@ -20,7 +20,7 @@ reccomendation
 get a better dataset and get better results, GIGO principle follows here
 Garbage In Garbage Out.
 
-#how to use the CNN:
+# how to use the CNN:
 
 ## using the hdf5 ready to use weights file:
 the weights hdf5 file 'mri_model_weights.h5' is attached and you can put it in a directory along with the 'predicting single image.py'
