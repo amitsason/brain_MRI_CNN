@@ -25,6 +25,7 @@ Garbage In Garbage Out.
 ## using the hdf5 ready to use weights file:
 the weights hdf5 file 'mri_model_weights.h5' is attached and you can put it in a directory along with the 'predicting single image.py'
 python file and the dataset folder containing the test set.
+you can even upload an image of your own if you want to test it.
 
 
 ## teaching the network from scratch:
