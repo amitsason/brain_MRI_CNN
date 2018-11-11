@@ -6,18 +6,20 @@ about the dataset:
 the dataset was aquiered from the web and contains 150 samples of different brain images.
 training set contains 120 images and test set contains 30 images (common ratio of 80:20).
 the dataset is very poor in size and resolution and was hand cropped.
-![picture alt](https://github.com/amitsason/brain_MRI_CNN/blob/master/dataset/test_set/normal/normal.1.jpg)
+* Brains with Tumer ![picture alt](https://github.com/amitsason/brain_MRI_CNN/blob/master/readme%20images/tumorExmple.JPG)
+* Brains without Tumer ![picture alt](https://github.com/amitsason/brain_MRI_CNN/blob/master/readme%20images/normalExample.JPG)
+
 
 about the CNN:
 Keras deep learning library was used.
 input image resolution for my model is 128X128X3 RGB.
 two convolution layers were used, and 64 neurons in the neural network.
-![picture alt]()
+![picture alt](https://github.com/amitsason/brain_MRI_CNN/blob/master/readme%20images/convolutional_neural_network.png)
 
 model result:
 my goals in this project were to succeed in classifying images with tumors.
 the results of my model is are 98.5% success rate on the training set, and 76.6% success rate on the test set.
-![picture alt]()
+
 
 reccomendation
 get a better dataset and get better results, GIGO principle follows here
