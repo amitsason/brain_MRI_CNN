@@ -6,7 +6,7 @@ about the dataset:
 the dataset was aquiered from the web and contains 150 samples of different brain images.
 training set contains 120 images and test set contains 30 images (common ratio of 80:20).
 the dataset is very poor in size and resolution and was hand cropped.
-![picture alt]()
+![picture alt](https://github.com/amitsason/brain_MRI_CNN/blob/master/dataset/test_set/normal/normal.1.jpg)
 
 about the CNN:
 Keras deep learning library was used.
