@@ -13,6 +13,9 @@ the dataset is very poor in size and resolution and was hand cropped.
 about the CNN:
 Keras deep learning library was used.
 input image resolution for my model is 128X128X3 RGB.
+each photo was passed through 32 filters each one 3X3 in size. the result was that each image had 32 featured images.
+the featured images were passed through a pooling layer with Max Pooling of 2X2 in size. the max pooling got rid of 75% of the "irelevant" or "excess" information pixels and we were left with 32 images each one with 0.25(128X128) = 32X32 pixel resolution.
+Next a second convolution layer with 32 3X3 fiters and 2X2 max pooling was added. Now each original image has 1024 pooled feature maps with 8X8 resolution. All the feature maps were flattened into a single vector which is the input vector for our Artificial Neural Network e.g. a vector size of 1024(8X8) = 65,536.
 two convolution layers were used, and 64 neurons in the neural network.
 ![picture alt](https://github.com/amitsason/brain_MRI_CNN/blob/master/readme%20images/convolutional_neural_network.png)
 
